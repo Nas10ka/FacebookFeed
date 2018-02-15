@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile actions: Clear Profile action 1`] = `
+Object {
+  "type": "CLEAR_PROFILE",
+}
+`;
+
+exports[`Profile actions: Fill Profile action 1`] = `
+Object {
+  "payload": Object {
+    "firstName": "John",
+    "lastName": "Snow",
+  },
+  "type": "FILL_PROFILE",
+}
+`;
+
+exports[`Profile actions: Update Avatar Failed action 1`] = `
+Object {
+  "error": true,
+  "payload": "error",
+  "type": "UPDATE_AVATAR_FAILED",
+}
+`;
+
+exports[`Profile actions: Update Avatar Succeed action 1`] = `
+Object {
+  "payload": "url",
+  "type": "UPDATE_AVATAR_SUCCEED",
+}
+`;
+
+exports[`Profile actions: Update Profile Failed action 1`] = `
+Object {
+  "error": true,
+  "payload": "error",
+  "type": "UPDATE_PROFILE_FAILED",
+}
+`;
+
+exports[`Profile actions: Update Profile Succeed action 1`] = `
+Object {
+  "payload": Object {
+    "firstName": "John",
+    "lastName": "Snow",
+  },
+  "type": "UPDATE_PROFILE_SUCCEED",
+}
+`;
+
+exports[`Profile actions: Update Profile action 1`] = `
+Object {
+  "payload": Object {
+    "firstName": "John",
+    "lastName": "Snow",
+  },
+  "type": "UPDATE_PROFILE",
+}
+`;
+
+exports[`Profile actions: Update Profile action 2`] = `
+Object {
+  "payload": "avatar",
+  "type": "UPDATE_AVATAR",
+}
+`;
